@@ -1,0 +1,33 @@
+[project]
+name = "nlp"
+version = "0.0.1"
+description = "Jupyter notebooks for NLP course materials"
+authors = [{ name = "Mrinal Rawool", email = "mrawool2@unl.edu" }]
+readme = "README.md"
+keywords = ['python']
+requires-python = ">=3.12,<3.14"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Natural Language Processing :: Libraries :: Python Modules",
+]
+
+dependencies = [
+    "jupyterlab",
+    "numpy",
+    "scikit-learn",
+    "spacy",
+    "matplotlib",
+    "tensorflow",
+    "tensorflow_datasets",
+    "importlib-resources",
+    "contractions",
+    "nltk",
+    "beautifulsoup4",
+    "torch>=2.12.0",
+    "datasets>=4.8.5",
+    "transformers>=5.10.1",
+    "seaborn>=0.13.2",
+]
