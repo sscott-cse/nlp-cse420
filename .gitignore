@@ -1,2 +1,5 @@
-.ipynb_checkpoints
-
+hw4/training_checkpoints/
+.ipynb_checkpoints/
+__pycache__/
+hw3/downloads/
+hw3/squad/
