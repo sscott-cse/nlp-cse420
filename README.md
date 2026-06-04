@@ -22,3 +22,7 @@ You can create your own environment for projects or use the shared class environ
 
 Please clone this repository to get started with your homework assignments.
 
+Contributors:
+- Haluk Dogan
+- Mrinal Rawool (TA)
+- Stephen Scott (Instructor)
