@@ -3,14 +3,14 @@
 **WIP**
 
 
-To use the shared course kernel in Jupyterlab, choose `nlp-cse420` from the kernel list drop down at the top right corner.
+To use the shared course kernel in Jupyterlab, choose `CSE 420 NLP` from the kernel list drop down at the top right corner.
 
 To use the Python environment in your SLURM file, use
 ```
 #!/bin/bash
 #SBATCH ...
 
-source /mnt/nrdstor/cse420/shared/cse420-uvenv/.venv/bin/activate
+conda activate /mnt/nrdstor/cse420/shared/conda/envs/conda-cse420
 
 python my_script.py
 
@@ -25,6 +25,8 @@ To run using JupyterLab, use the following parameters to ensure the notebook run
 - `PARTITION=gpu`
 - `GRES=gpu`
 - `JOB CONSTRAINTS=gpu_32gb`
+
+If the notebook uses a large dataset, please increase the RAM.
 
 
 Please clone this repository to get started with your homework assignments.
