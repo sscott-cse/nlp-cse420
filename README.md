@@ -20,6 +20,13 @@ You can run the homework assignments on [HCC](https://swan-ood.unl.edu/) or [Goo
 
 You can create your own environment for projects or use the shared class environment. `Conda` and `uv` are popular choices for creating environments.
 
+To run using JupyterLab, use the following parameters to ensure the notebook runs smoothly.
+- `RAM=16GB`
+- `PARTITION=gpu`
+- `GRES=gpu`
+- `JOB CONSTRAINTS=gpu_32gb`
+
+
 Please clone this repository to get started with your homework assignments.
 
 Contributors:
