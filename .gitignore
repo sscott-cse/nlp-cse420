@@ -7,3 +7,4 @@ hw3/epochs_001.weights.h5
 hw3/epochs_002.weights.h5
 hw3/glove.6B.50d.txt
 hw3/glove.6B.50d.txt.gz
+*.out
