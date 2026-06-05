@@ -11,7 +11,8 @@ nvidia-smi
 
 module load mamba
 conda activate /mnt/nrdstor/cse420/shared/conda/envs/conda-cse420
-export LD_LIBRARY_PATH=/mnt/nrdstor/cse420/shared/conda/envs/lib
+# allows GPU visibility
+export LD_LIBRARY_PATH=/util/opt/cuda/12.8/lib64:/util/opt/openmpi/4.1/gcc/11/lib:/util/comp/gcc/11/lib64:/util/comp/gcc/11/lib
 
 
 python demo_slurm.py
